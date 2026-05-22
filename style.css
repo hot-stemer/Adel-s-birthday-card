@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Pixelify+Sans:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    cursor:cell;
+}
+body{
+    background:rgb(0, 0, 0);
+    font-family:'Pixelify Sans', system-ui, Arial, sans-serif;
+    color:rgb(30, 144, 255);
+    padding:5rem;
+}
+header{
+    text-align:center;}
+header p{
+  margin: none;
+
+}
+hr{
+    border:0.05rem solid rgba(189, 189, 189, 0.788);
+    margin-top: 0.5rem;
+}
+
+main{
+    margin: 2rem 20% 0 20%;
+    width: 70%;
+    box-shadow:0 0 5rem rgba(30,143,255,0.35);
+    border-radius:0.5rem;
+    border: 0.1rem solid gray;
+    padding: 5%;
+}s
+p{
+    white-space: pre-wrap;
+    display:inline-block;
+}
+.song{
+    position: fixed;
+    bottom: 1rem;
+    right:1rem;
+}
+div img{
+width:10rem;
+height: auto;
+
+}
+.pixels{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.p1{
+    position: relative;
+    top: 15px;
+}
+.p2{
+    position:relative;
+    top:2rem;
+}
