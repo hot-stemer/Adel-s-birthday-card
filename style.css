@@ -11,11 +11,15 @@ body{
     font-family:'Pixelify Sans', system-ui, Arial, sans-serif;
     color:rgb(30, 144, 255);
     padding:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 header{
     text-align:center;}
 header p{
-  margin: none;
+  font-size: 0.7rem;
 
 }
 hr{
@@ -24,22 +28,17 @@ hr{
 }
 
 main{
-    margin: 2rem 20% 0 20%;
-    width: 70%;
+    width: 80%;
     box-shadow:0 0 5rem rgba(30,143,255,0.35);
     border-radius:0.5rem;
     border: 0.1rem solid gray;
     padding: 5%;
-}s
-p{
-    white-space: pre-wrap;
-    display:inline-block;
+    overflow-x: hidden;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
 }
-.song{
-    position: fixed;
-    bottom: 1rem;
-    right:1rem;
-}
+
 div img{
 width:10rem;
 height: auto;
@@ -58,4 +57,130 @@ height: auto;
 .p2{
     position:relative;
     top:2rem;
+}
+h1{
+font-size: 2.5rem;
+text-align: center;
+text-shadow: 2px 2px 4px rgb(30, 144, 255);
+color: aliceblue;
+margin-bottom: 0.7rem;
+}
+.hbd p{
+    color: rgba(72, 255, 0, 0.801);
+    text-align: center;
+    display: block;
+    margin-bottom: 0.7rem;
+}
+audio{
+    position: fixed;
+    bottom: 1rem;;
+    right:1rem;
+    display: none;
+}
+.gift{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+ position: relative;
+ bottom: 0px;
+ display: inline-block; 
+ margin-top:0.5rem;
+ border:0.1rem solid rgb(30, 144,255);
+ border-radius:4px;
+ font-size:0.7rem;
+ letter-spacing:0.05rem;
+ padding: 1rem 0.7rem;
+ color: rgb(69, 158, 247);
+ background-color: transparent;
+ background-color: rgba(30, 143, 255, 0.164);
+ cursor: pointer;
+ font-family:inherit;
+ box-shadow:0px 0px 6px rgb(255, 255, 255);
+ margin-top:0.7rem;
+}
+button:hover{
+    color: white;
+    box-shadow:0px 0px 6px rgb(30, 144, 255)
+    
+}
+.gift p{
+color:rgb(71, 255, 0);
+}
+footer{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+header p{
+    white-space:pre;
+}
+.python{
+    overflow: auto;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    padding-top:0rem;
+}
+.python code{
+    white-space: pre;
+    text-align: left;
+}
+.fun{
+    color:rgb(229, 255, 0);
+}
+.var{
+    color:rgb(71, 255, 0)
+}
+.hbd2{
+    margin-bottom:0.5rem;
+}
+.hr2{
+ margin-bottom:0.5rem;
+}
+.memories{
+    display: flex;
+    color:white;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    gap:0.8rem;
+    align-items: center;
+    justify-content: center;
+    padding-left:0%;
+}
+.chess{
+    position:relative;
+    border:0.1rem solid rgb(229, 255, 0);
+    background-color: rgba(229, 255, 0, 0.342);
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    justify-content: center;
+    margin:0.3rem;
+    align-items: center;
+    margin:0.9rem;
+
+}
+.bots{
+    position:relative;
+    border:0.1rem solid rgb(51, 255, 0);
+    background-color: rgba(0, 255, 21, 0.342);
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    justify-content: center;
+    margin:0.3rem;
+    align-items: center;
+    margin:0.9rem auto
+}
+.lan{
+    position:relative;
+    border:0.1rem solid rgb(30, 144, 255);
+    background-color: rgba(30, 144, 255, 0.342);
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    justify-content: center;
+    margin:0.3rem;
+    align-items: center;
+    margin: 0.9rem auto;
 }
