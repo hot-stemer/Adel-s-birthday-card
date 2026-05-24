@@ -65,11 +65,12 @@ text-shadow: 2px 2px 4px rgb(30, 144, 255);
 color: aliceblue;
 margin-bottom: 0.7rem;
 }
+
 .hbd p{
     color: rgba(72, 255, 0, 0.801);
     text-align: center;
     display: block;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1.5rem;
 }
 audio{
     position: fixed;
@@ -118,12 +119,15 @@ footer{
 header p{
     white-space:pre;
 }
-.python{
+.python {
     overflow: auto;
-    border-radius: 0.5rem;
-    padding:0.5rem;
-    padding-top:0rem;
+    padding: 1.5rem;   
+    border-radius: 0.5rem;   
+    border: 0.1rem solid rgba(255, 255, 255, 0.15);
+    background-color: #0d0d0d;
+    margin: 1.5rem 0;     
 }
+
 .python code{
     white-space: pre;
     text-align: left;
@@ -143,7 +147,7 @@ header p{
 .memories{
     display: flex;
     color:white;
-    margin-top:0.5rem;
+    margin-top:1.5rem;
     margin-bottom:0.5rem;
     gap:0.8rem;
     align-items: center;
